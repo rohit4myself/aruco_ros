@@ -8,13 +8,13 @@
 
 geometry_msgs::Pose aruc;
 geometry_msgs::Pose quad;
-void sub_1(const geometry_msgs::PoseWithCovariance msg)
-{   
-    quad=msg.pose;
-}
 void sub_2(const geometry_msgs::PoseStamped msg)
 {   
     aruc=msg.pose;
+}
+void sub_1(const geometry_msgs::PoseStamped msg)
+{   
+    quad=msg.pose;
 }
 
 int main(int argc, char **argv)
