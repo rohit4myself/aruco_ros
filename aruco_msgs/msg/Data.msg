@@ -1,0 +1,2 @@
+geometry_msgs/Pose aruco_pose
+geometry_msgs/Pose quad_pose
